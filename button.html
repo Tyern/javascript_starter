@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <title>Apply JavaScript example</title>
+    <script>
+        function createParagraph(){
+            let para = document.createElement("p");
+            para.textContent = 'You clicked it';
+            document.body.appendChild(para);
+        }
+    </script>
+  </head>
+  <body>
+    <button style="background-color: rgb(31, 105, 31);" onclick="createParagraph()">Click me</button>
+  </body>
+</html>
